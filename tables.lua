@@ -53,3 +53,23 @@ print("your Age is:",Age)
 
 
 
+
+
+-- using table insert function  
+-- takese a value and puts that into the table
+EneryLevel = 0
+
+playerEnergyLevel = {} 
+table.insert(playerEnergyLevel, 20)
+table.insert(playerEnergyLevel,30)
+
+
+print("Energy Level:",playerEnergyLevel[1])
+print("Enery Level:",playerEnergyLevel[2])
+print("Energy Level:",playerEnergyLevel[3])
+
+
+
+
+
+
