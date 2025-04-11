@@ -44,7 +44,7 @@ playerGender = Gender[1]
 print("Gender Selected:",playerGender)
 
 Age = 0
-playerAge = {20, 22, 25, 26}
+playerAge = {20, 22, 25, 26} 
 
 Age = playerAge[2]
 print("you're Age is:",Age)
