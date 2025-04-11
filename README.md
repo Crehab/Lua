@@ -1,4 +1,5 @@
 # Lua 
-![9qhf0w](https://github.com/user-attachments/assets/eb80ccc6-accb-477c-8b4c-3ebdd68d2a3c)
-Basics of Lua Programming Language
+![9qhf6i](https://github.com/user-attachments/assets/f5539f69-e676-44bc-84f8-41a5acf561f8)
+
+## Basics of Lua Programming Language
 
