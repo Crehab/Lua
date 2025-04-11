@@ -1,7 +1,7 @@
 --[[Tables are Data Structures which stores multiple amount of data in the same variables like, integers, strings etc..
 used to store sets of related data since the data is stored in the same place, its easy to
 organize, store and maintain the data.]]
-
+--Note:- -- in Lua the index always starts from 1 by default as compared to other programming languages like, Java, C, C#, Python etc
 
 currentLevel = 0
 
@@ -48,9 +48,6 @@ playerAge = {20, 22, 25, 26}
 
 Age = playerAge[2]
 print("your Age is:",Age)
-
-
-
 
 
 
