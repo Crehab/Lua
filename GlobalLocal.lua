@@ -12,5 +12,16 @@ end
 Damage = increaseDamage(10)
 print("Damage Taken:",Damage)
 
+-- Example of Global 
 
-  
+playerHealth = 100
+
+function decreasePlayerHealth(Damage)
+  playerHealth = playerHealth - Damage 
+  --[[ you can think of this as 100 - 10 = 90 
+  where 100 representing playerHealth and 10 representing Damage]] 
+  return playerHealth
+end 
+
+playerHealth = decreasePlayerHealth(10)
+print("Player Health Decreased:",playerHealth)
