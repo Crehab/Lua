@@ -12,7 +12,7 @@ end
 Damage = increaseDamage(10)
 print("Damage Taken:",Damage)
 
--- Example of Global 
+-- Example of Global Variabless
 
 playerHealth = 100
 
