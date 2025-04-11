@@ -9,7 +9,7 @@ function increaseDamage(damage)
   return hit  
 end
 
-Damage = increaseDamage(10)
+Damage = increaseDamage(10) 
 print("Damage Taken:",Damage)
 
 -- Example of Global Variabless
