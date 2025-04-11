@@ -25,3 +25,13 @@ print("you are in final level",currentLevel)
 
 currentLevel = totalLevels[4]
 print("this is representation of nil value:",currentLevel)
+
+
+-- shortcut way of creating a table and assigning values in it
+
+playerNames = 0
+
+names = {"GigaChad", "SupremePrime","Crehab"}
+
+playerNames = names[2]
+print("Selected:",playerNames)
