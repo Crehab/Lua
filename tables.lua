@@ -35,3 +35,10 @@ names = {"GigaChad", "SupremePrime","Crehab"}
 
 playerNames = names[2]
 print("Selected:",playerNames)
+
+playerGender = 0
+
+Gender = {"Male", "Female","BiSexual", "Gay", "None"}
+
+playerGender = Gender[1]
+print("Gender Selected:",playerGender)
