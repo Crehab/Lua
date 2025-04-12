@@ -86,4 +86,18 @@ print("Enery Level:",playerEnergyLevel[2])
 print("Energy Level:",playerEnergyLevel[3])
 
 
+-- Adding Properties to the table,
+--  basically a variable thats joined to the table itself.
+
+allLevels = {1,2,3,4}
+allLevels.Level1 = "Easy"
+allLevels.Level2 = "Medium"
+allLevels.Level3 = "Hard"
+allLevels.Level4 = "Extreme"
+print("You Selected Level:",allLevels.Level1)
+print("You Selected Level:",allLevels.Level2)
+print("You Selected Level:",allLevels.Level3)
+print("You Selected Level:",allLevels.Level4)
+
+
 
