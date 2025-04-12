@@ -39,3 +39,11 @@ print("Fourth Map is:",map)
 
 map = MapNames [5]
 print("Fifth Map is:",map)
+
+--Method 3 -- After Creating the Table, putting Values directly into the Table, inside the curly braces.
+
+NewTable = {1,2,3,4}
+print("Value at Index 1 is:",NewTable[1])
+print("Value at Index 2 is:",NewTable[2])
+print("Value at Index 3 is:",NewTable[3])
+print("Value at Index 4 is:",NewTable[4])
