@@ -34,7 +34,7 @@ playerNames = 0
 names = {"GigaChad", "SupremePrime","Crehab"}
 
 playerNames = names[2]
-print("Selected:",playerNames)
+print("Name Selected:",playerNames)
 
 playerGender = 0
 
