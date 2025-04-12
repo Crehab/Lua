@@ -47,10 +47,25 @@ Age = 0
 playerAge = {20, 22, 25, 26} 
 
 Age = playerAge[2]
-print("your Age is:",Age)
+print("Age is:",Age)
+
+for i = 1, #playerAge do -- #playerAge returns the Length of the Age table
+  print("Age at index",i,":",playerAge[i])  
+end
 
 
-
+--[[ for loop used to add all the values of all levels
+Note:- 
+i refers to the Current Index
+s refers to the Current Value or data that exists at that Index
+generally, this for loop will add up all the values and returns the total value.
+]]  
+local totalLevels = 0
+levels = {1,2,3}
+for i,s in ipairs(levels) do
+  totalLevels = totalLevels + s -- 1+2+3 = 6
+end
+print("By Adding all the Levels will give us total of:",totalLevels,"Levels")
 
 
 
@@ -62,14 +77,13 @@ EneryLevel = 0
 playerEnergyLevel = {} 
 table.insert(playerEnergyLevel, 20)
 table.insert(playerEnergyLevel,30)
+table.insert(playerEnergyLevel,40)
+
 
 
 print("Energy Level:",playerEnergyLevel[1])
 print("Enery Level:",playerEnergyLevel[2])
 print("Energy Level:",playerEnergyLevel[3])
-
-
- 
 
 
 
