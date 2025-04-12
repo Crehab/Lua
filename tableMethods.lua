@@ -47,3 +47,13 @@ print("Value at Index 1 is:",NewTable[1])
 print("Value at Index 2 is:",NewTable[2])
 print("Value at Index 3 is:",NewTable[3])
 print("Value at Index 4 is:",NewTable[4])
+
+--Method 4 Using insert Function
+
+delulu = 0
+yadatable = {}
+table.insert(yadatable,1)
+table.insert(yadatable,2)
+delulu = yadatable[1]
+print("this should print the value at delulu",delulu)
+
