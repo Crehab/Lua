@@ -40,7 +40,7 @@ print("Fourth Map is:",map)
 map = MapNames [5]
 print("Fifth Map is:",map)
 
---Method 3 -- After Creating the Table, putting Values directly into the Table, inside the curly braces.
+--Method 3 --  not dynamic, fixed values. After Creating the Table, putting Values directly into the Table, inside the curly braces.
 
 NewTable = {1,2,3,4}
 print("Value at Index 1 is:",NewTable[1])
@@ -56,4 +56,6 @@ table.insert(yadatable,1)
 table.insert(yadatable,2)
 delulu = yadatable[1]
 print("this should print the value at delulu",delulu)
+
+
 
