@@ -13,4 +13,29 @@ print("the value at table2 is:",table[2])
 
 
 
--- Method 2
+-- Method 2 Assigning the Created Table & Storing the Values of Table in another Variable
+
+local map  -- map is set to local so that it cannot be used outside of the assigned scope. 
+
+MapNames = {}
+
+MapNames [1] = "Erangle"
+MapNames [2] = "Sanhok"
+MapNames [3] = "Livik"
+MapNames [4] = "Miramar"
+MapNames [5] = "Vikendi"
+
+map = MapNames [1]
+print("First Map is:",map)
+
+map = MapNames [2]
+print("Second Map is:",map)
+
+map = MapNames [3]
+print("Thrid Map is:",map)
+
+map = MapNames [4]
+print("Fourth Map is:",map) 
+
+map = MapNames [5]
+print("Fifth Map is:",map)
