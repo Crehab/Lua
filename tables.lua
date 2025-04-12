@@ -69,7 +69,7 @@ print("Enery Level:",playerEnergyLevel[2])
 print("Energy Level:",playerEnergyLevel[3])
 
 
-
+ 
 
 
 
